@@ -1,10 +1,13 @@
 
+
+
 class Solution {
 public:
-	int removeElement(/*int A[], int n, int elem*/);
+	static int sample[];
+	int removeElement( int A[] = sample, int n = 6, int elem = 2);
 
 };
-
+// sample for removeElement
 
 
 

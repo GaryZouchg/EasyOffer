@@ -4,15 +4,16 @@
 #include "Array.h"
 #include <iostream>
 
+using namespace std;
+
+
 int _tmain(int argc, _TCHAR* argv[])
 {
 	Solution sol;
 	sol.removeElement();
 
-
-
 	char exit;
-	std::cin >> exit;
+	cin >> exit;
 
 	return 0;
 }

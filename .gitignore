@@ -2,6 +2,8 @@
 *~
 x64
 Win32
+Debug
+ipch
 .vs
 *.sdf
 *.user
