@@ -17,7 +17,7 @@ public:
 
 	static string static_word;
 	static unordered_set<string> static_dict;
-	int wordBreak1( string word = static_word, unordered_set<string> &dict = static_dict );
+	bool wordBreak1( string word = static_word, unordered_set<string> &dict = static_dict );
 	int wordBreak2( string word = static_word, unordered_set<string> &dict = static_dict );
 
 };

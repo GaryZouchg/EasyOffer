@@ -44,4 +44,3 @@ int Solution::candy(vector<int> &ratings) {
 	}
 	return n;
 }
-};
