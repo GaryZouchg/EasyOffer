@@ -17,7 +17,7 @@ Given a positive integer n, find the least number of perfect square numbers (for
 
 int Solution::static_num = 12;
 
-int Solution::uniqueBSTs1(int n)
+int Solution::perfectSquare(int n)
 {
 	vector<int> dp(n + 1, INT_MAX);
 	dp[0] = 0;

@@ -20,7 +20,7 @@ public:
 	vector<TreeNode *> uniqueBSTs2(int n = static_n);
 
 	static int static_num;
-	int PerfectSquare(int n = static_num);
+	int perfectSquare(int n = static_num);
 
 
 private:
