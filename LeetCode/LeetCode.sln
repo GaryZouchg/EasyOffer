@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BitManipunation", "BitManip
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DynamicProgramming", "DynamicProgramming\DynamicProgramming.vcxproj", "{F58D080D-62E6-4FEF-8CC2-6418E9F6F9C7}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sort", "Sort\Sort.vcxproj", "{587FC405-1075-4A36-9E0E-D1CAFB2A063D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Mixed Platforms = Debug|Mixed Platforms
@@ -125,6 +127,16 @@ Global
 		{F58D080D-62E6-4FEF-8CC2-6418E9F6F9C7}.Release|Win32.ActiveCfg = Release|Win32
 		{F58D080D-62E6-4FEF-8CC2-6418E9F6F9C7}.Release|Win32.Build.0 = Release|Win32
 		{F58D080D-62E6-4FEF-8CC2-6418E9F6F9C7}.Release|x64.ActiveCfg = Release|Win32
+		{587FC405-1075-4A36-9E0E-D1CAFB2A063D}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{587FC405-1075-4A36-9E0E-D1CAFB2A063D}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{587FC405-1075-4A36-9E0E-D1CAFB2A063D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{587FC405-1075-4A36-9E0E-D1CAFB2A063D}.Debug|Win32.Build.0 = Debug|Win32
+		{587FC405-1075-4A36-9E0E-D1CAFB2A063D}.Debug|x64.ActiveCfg = Debug|Win32
+		{587FC405-1075-4A36-9E0E-D1CAFB2A063D}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{587FC405-1075-4A36-9E0E-D1CAFB2A063D}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{587FC405-1075-4A36-9E0E-D1CAFB2A063D}.Release|Win32.ActiveCfg = Release|Win32
+		{587FC405-1075-4A36-9E0E-D1CAFB2A063D}.Release|Win32.Build.0 = Release|Win32
+		{587FC405-1075-4A36-9E0E-D1CAFB2A063D}.Release|x64.ActiveCfg = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
