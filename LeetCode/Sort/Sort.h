@@ -14,6 +14,7 @@ public:
 	void bubble(vector<int> &vec = static_vec, bool print = static_print);
 	void insert(vector<int> &vec = static_vec, bool print = static_print);
 	void selection(vector<int> &vec = static_vec, bool print = static_print);
+	void quickSort(vector<int> &vec = static_vec, bool print = static_print);
 
 
 private:
