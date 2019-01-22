@@ -10,10 +10,11 @@ int _tmain(int argc, _TCHAR* argv[])
 {
 	Solution sol;
 
-	/*sol.insert();
+	sol.insert();
+	/*
 	sol.bubble();
-*/
-	sol.quickSort();
+
+	sol.quickSort();*/
 	//sol.selection();
 
 
