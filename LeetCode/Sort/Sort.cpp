@@ -10,9 +10,10 @@ int _tmain(int argc, _TCHAR* argv[])
 {
 	Solution sol;
 
-	sol.insert();
+	/*sol.insert();
 	sol.bubble();
-
+*/
+	sol.quickSort();
 	//sol.selection();
 
 
@@ -24,7 +25,7 @@ int _tmain(int argc, _TCHAR* argv[])
 
 
 //默认的待排序数组
-int array_vec[] = { 8, 7, 6, 3, 4, 5, 1, 2 };
+int array_vec[] = { 5, 7, 6, 3, 4, 8, 1, 2 };
 vector<int> Solution::static_vec(&array_vec[0], &array_vec[8]);
 //默认将排序过程打印出来
 bool Solution::static_print = true;
