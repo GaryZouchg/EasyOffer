@@ -86,6 +86,7 @@
   <ItemGroup>
     <ClCompile Include="Bubble.cpp" />
     <ClCompile Include="Insert.cpp" />
+    <ClCompile Include="QuickSort.cpp" />
     <ClCompile Include="Selection.cpp" />
     <ClCompile Include="Sort.cpp" />
     <ClCompile Include="stdafx.cpp">
