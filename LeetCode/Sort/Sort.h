@@ -15,7 +15,7 @@ public:
 	void insert(vector<int> &vec = static_vec, bool print = static_print);
 	void selection(vector<int> &vec = static_vec, bool print = static_print);
 	void quickSort(vector<int> &vec = static_vec, int l = 0, int r = static_vec.size() -1 , bool print = static_print);
-
+	void mergeSort();
 
 private:
 	void printVector(vector<int> &vec = static_vec,bool print = static_print);
