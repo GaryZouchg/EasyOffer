@@ -59,35 +59,3 @@ void Solution::quickSort(vector<int> &vec, int l, int r, bool print)
 	}
 }
 
-
-
-
-
-//
-//int partition(vector<int> vec, int l, int r)
-//{
-//
-//	int i = l - 1;
-//	int j = r;
-//	int v = vec[j];
-//
-//
-//	while (1)
-//	{
-//		while (vec[i] < v) i++;//while (vec[++i] < v)
-//
-//		while (vec[j] > v) {
-//			j--; 
-//			if (j == l)
-//				break;
-//		}
-//		//½»»»
-//		int tmp;
-//		tmp = vec[i];
-//		vec[i] = vec[j];
-//		vec[j] = tmp;
-//
-//
-//		
-//	}
-//}
