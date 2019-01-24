@@ -3,7 +3,6 @@
 #include "Sort.h"
 
 
-
 /*  归并排序
 https://blog.csdn.net/lemon_tree12138/article/details/50622744
 
@@ -18,7 +17,7 @@ https://blog.csdn.net/lemon_tree12138/article/details/50622744
 
 空间复杂度 N
 
-不稳定
+
 较复杂
 
 */
