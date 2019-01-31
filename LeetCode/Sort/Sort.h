@@ -11,10 +11,17 @@ public:
 	static vector<int> static_vec;
 	static vector<int> result_vec;
 	static bool static_print;
+
 	/*简单排序*/
 	void bubble(vector<int> &vec = static_vec, bool print = static_print);
 	void insert(vector<int> &vec = static_vec, bool print = static_print);
 	void selection(vector<int> &vec = static_vec, bool print = static_print);
+
+
+	//有序数组时间复杂度为n的排序
+	static vector<int> static_OnO1;
+
+	void onO1Sort(vector<int> &vec = static_OnO1, bool print = static_print)
 
 	//复杂排序
 
