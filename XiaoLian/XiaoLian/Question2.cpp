@@ -4,18 +4,16 @@
 #include <vector>
 #include <algorithm>
 #include <queue>
-void Solution::question2()
+void Solution::question2(std::vector<int> vec, int topk)
 {
-	int arr[] = { 2, 3, 1, 5, 2, 1, 2, 4, 3, 2, 3 };
-	std::vector<int> vec( &arr[0], &arr[sizeof(arr) / sizeof(int)] );
-	int topk = 3;
+
 	std::priority_queue<std::pair<int, int>> q;
 
 	std::vector<int> vec_count(vec.size(),0);
 	for (auto it : vec)
 	{
 		vec_count[it]++;
-	}
+	}          //计算出每个数字出现的次数
 
 	for (int i = 0; i < vec_count.size(); i++)
 	{
@@ -23,7 +21,7 @@ void Solution::question2()
 		{
 			q.push({ vec_count[i], i });
 		}
-	}
+	}         //插入优先队列
 
 	for (int i = 0; i < topk; ++i) {
 		std::cout << q.top().second << std::endl;
