@@ -21,7 +21,7 @@ public:
 	//有序数组时间复杂度为n的排序
 	static vector<int> static_OnO1;
 
-	void onO1Sort(vector<int> &vec = static_OnO1, bool print = static_print)
+	void onO1Sort(vector<int> &vec = static_OnO1, bool print = static_print);
 
 	//复杂排序
 
