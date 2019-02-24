@@ -22,6 +22,7 @@
     <ProjectGuid>{900BCE73-613A-4B60-8196-4921F0E15148}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>SelfString</RootNamespace>
+    <ProjectName>String</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -146,12 +147,13 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="SelfString.h" />
+    <ClInclude Include="String.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="SelfString.cpp" />
+    <ClCompile Include="DecodeString.cpp" />
+    <ClCompile Include="String.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
