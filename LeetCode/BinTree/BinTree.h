@@ -33,8 +33,14 @@ public:
 
 
 
-void sumPathes(NODE* root, DataType val);
+	void sumPathes(NODE* root, DataType val);
 
+
+	int maxDepth(NODE * root, int level = 1);
+	int minDepth(NODE * root);
+	int minDepthTravel(NODE * root, int level);
+	int maxdepth_ = 0;  //用于存储中间变量
+	int mindepth_ = 0;  //用于存储中间变量
 };
 
 

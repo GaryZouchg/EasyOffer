@@ -41,5 +41,8 @@
     <ClCompile Include="SumPathes.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="BinTreeDepth.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

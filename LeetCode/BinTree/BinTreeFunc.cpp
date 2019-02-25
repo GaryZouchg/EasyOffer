@@ -97,6 +97,7 @@ void Solution::binTreeLRD(BinTree* root, void(*oper)(BinTree *p))
 	}
 	return;
 }
+
 void Solution::printOper(BinTree* node)
 {
 
