@@ -55,16 +55,16 @@ int Solution::minDepthTravel(BinTree* root, int level)
 
 	if (root->left)
 	{
-		level++;
-		mindepth_ = minDepthTravel(root->left, level);
+		//level++;
+		mindepth_ = minDepthTravel(root->left, level+1);
 		//level--;
 
 	}
 
 	if (root->right)
 	{
-		level++;
-		mindepth_ = minDepthTravel(root->right, level);
+		//level++;
+		mindepth_ = minDepthTravel(root->right, level+1);
 		//level--;
 	}
 
