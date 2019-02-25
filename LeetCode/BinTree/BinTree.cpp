@@ -52,6 +52,8 @@ int _tmain(int argc, _TCHAR* argv[])
 	std::cout <<  std::endl;
 
 
+	sol.sumPathes(rt1_root, rt1_root->data);
+
 	system("pause");
 
 	return 0;

@@ -34,5 +34,8 @@
     <ClCompile Include="removeElement.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="TopKFrequency.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

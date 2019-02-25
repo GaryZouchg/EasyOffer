@@ -12,9 +12,10 @@ int _tmain(int argc, _TCHAR* argv[])
 	Solution sol;
 	sol.removeElement();
 
-	char exit;
-	cin >> exit;
+	sol.topKFrequency();
 
+	
+	system("pause");
 	return 0;
 }
 

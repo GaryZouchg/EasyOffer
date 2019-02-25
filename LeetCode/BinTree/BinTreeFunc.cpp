@@ -61,6 +61,7 @@ BinTree* Solution::binTreeFind(BinTree* root, DataType data)
 
 
 }
+
 void Solution::binTreeDLR(BinTree* root, void(*oper)(BinTree *p))
 {
 
@@ -72,6 +73,7 @@ void Solution::binTreeDLR(BinTree* root, void(*oper)(BinTree *p))
 	}
 	return;
 }
+
 void Solution::binTreeLDR(BinTree* root, void(*oper)(BinTree *p))
 {
 
