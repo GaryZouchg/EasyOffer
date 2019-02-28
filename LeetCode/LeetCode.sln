@@ -5,7 +5,7 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Array", "Array\Array.vcxproj", "{DD395702-7A6D-4AB3-97DA-B5745881DDE2}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SelfString", "SelfString\SelfString.vcxproj", "{900BCE73-613A-4B60-8196-4921F0E15148}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "String", "SelfString\SelfString.vcxproj", "{900BCE73-613A-4B60-8196-4921F0E15148}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LinkedList", "LinkedList\LinkedList.vcxproj", "{81B052A7-8996-4B89-ADB9-90D49C3ADAC9}"
 EndProject
