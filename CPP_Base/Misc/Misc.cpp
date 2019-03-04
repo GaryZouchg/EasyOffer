@@ -2,6 +2,7 @@
 //
 
 #include "stdafx.h"
+#include "Misc.h"
 #include <iostream>
 
 int isLittleEndian()
