@@ -4,7 +4,7 @@
 #include "stdafx.h"
 #include "Memory.h"
 #include <iostream>
-
+#include <memory>
 //#define _CRT_SECURE_NO_WARNINGS
 //修改数组和指针的内容
 void arrayPointer1(void)
@@ -115,6 +115,36 @@ void getMemory3_test()
 }
 
 
+void arrayPointerdiff()
+{
+	char  cha[] = "Hello";
+	
+	char *chp = "World";
+
+
+	std::cout << cha + 1 << std::endl;
+	std::cout << chp + 1 << std::endl;
+	std::cout << cha[1] << std::endl;
+
+	std::cout << *(chp + 1) << std::endl;
+	std::cout << *(cha+1) << std::endl;
+
+	std::cout << *chp << std::endl;
+	std::cout << *cha << std::endl;
+
+
+	char *chp2 = NULL;
+	chp2 = cha;           //数组的内存赋给指针指向的地址
+	char *chp3 = &cha[0]; //数组首地址赋值给指针
+
+	std::cout << chp2 << std::endl; //Hello
+	std::cout << &chp2 << std::endl;
+	std::cout << &cha << std::endl;  //与&ch2不同
+	std::cout << chp3 << std::endl;  //Hello
+
+
+}
+
 
 int _tmain(int argc, _TCHAR* argv[])
 {
@@ -126,7 +156,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	getMemory2_test();
 	getMemory3_test();
 
-
+	arrayPointerdiff();
 
 
 
