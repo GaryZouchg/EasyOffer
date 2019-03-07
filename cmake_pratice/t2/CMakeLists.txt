@@ -1,0 +1,8 @@
+PROJECT (HELLO)
+set(CMAKE_CXX_STANDARD 11)
+
+
+ADD_SUBDIRECTORY(src bin ) 
+#向当前工程添加存放源文件的子目录,并可以指定中间二进制和目标二进制存放的位置
+#SET(EXECUTABLE_OUTPUT_PATH ${PROJECT_BINARY_DIR}/bin)  ===build/bin
+#SET(LIBRARY_OUTPUT_PATH ${PROJECT_BINARY_DIR}/lib)
