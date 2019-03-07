@@ -130,7 +130,7 @@ void arrayPointerdiff()
 	std::cout << *(cha+1) << std::endl;
 
 	std::cout << *chp << std::endl;
-	std::cout << *cha << std::endl;
+	std::cout << *cha << std::endl;  
 
 
 	char *chp2 = NULL;
@@ -142,6 +142,26 @@ void arrayPointerdiff()
 	std::cout << &cha << std::endl;  //与&ch2不同
 	std::cout << chp3 << std::endl;  //Hello
 
+
+}
+
+void cycleReference()
+{
+	std::shared_ptr<A> spA(new A);
+	std::shared_ptr<B> spB(new B);
+
+	//spA->spB = spB;
+	//std::cout << "spB.use_count() :" << spB.use_count() << std::endl;
+	//spB->spA = spA;
+	//std::cout << "spA.use_count() :" << spA.use_count() << std::endl;
+	//b先出作用域，B的引用计数减少为1，不为0，所以堆上的B空间没有被释放，且B持有的A也没有机会被析构，A的引用计数也完全没减少
+
+	//a后出作用域，同理A的引用计数减少为1，不为0，所以堆上A的空间也没有被释放
+
+	spA->wpB = spB;
+	std::cout << "spA.use_count() :" << spA.use_count() << std::endl;
+	spB->wpA = spA;
+	std::cout << "spB.use_count() :" << spB.use_count() << std::endl;
 
 }
 
@@ -159,7 +179,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	arrayPointerdiff();
 
 
-
+	cycleReference();
 	system("pause");
 	return 0;
 }
