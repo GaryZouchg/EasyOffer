@@ -2,4 +2,7 @@
 ADD_EXECUTABLE(main main.cpp)
 
 INCLUDE_DIRECTORIES(/usr/include/hello)
+
 TARGET_LINK_LIBRARIES(main libhello.so)
+
+#CMAKE_INCLUDE_PATH和CMAKE_LIBRARY_PATH
