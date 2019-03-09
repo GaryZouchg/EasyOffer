@@ -1,4 +1,5 @@
 PROJECT (HELLO)
+cmake_minimum_required(VERSION 3.5)
 set(CMAKE_CXX_STANDARD 11)
 
 
@@ -6,3 +7,21 @@ ADD_SUBDIRECTORY(src bin )
 #向当前工程添加存放源文件的子目录,并可以指定中间二进制和目标二进制存放的位置
 #SET(EXECUTABLE_OUTPUT_PATH ${PROJECT_BINARY_DIR}/bin)  ===build/bin
 #SET(LIBRARY_OUTPUT_PATH ${PROJECT_BINARY_DIR}/lib)
+#PROJECT_BINARY_DIR  PROJECT_BINARY_DIR compile location
+
+#cmake -DCMAKE_INSTALL_PREFIX=/usr .
+#CMAKE_INSTALL_PREFIX default value is  /usr/local
+
+
+#INSTALL(TARGETS main
+#	RUNTIME DESTINATION bin
+#	LIBRARY DESTINATION lib
+#	ARCHIVE DESTINATION libstatic)
+
+
+INSTALL(FILES COPYRIGHT README DESTINATION share/doc/cmake/t2)
+
+INSTALL(PROGRAMS runhello.sh DESTINATION bin)
+
+INSTALL(DIRECTORY doc/ DESTINATION share/doc/cmake/t2)
+
