@@ -1,0 +1,17 @@
+ PROJECT指令，他会隐式的定义<projectname>_BINARY_DIR和<projectname>_SOURCE_DIR两个变量
+
+SET(HELLO_SRC main.SOURCE_PATHc)，就PROJECT_BINARY_DIR 可以通过
+${HELLO_SRC}来引用这个自定义变量了.
+
+1，CMAKE_BINARY_DIR
+PROJECT_BINARY_DIR
+<projectname>_BINARY_DIR
+这三个变量指代的内容是一致的，如果是 in source 编译，指得就是工程顶层目录，如果
+是out-of-source 编译，指的是工程编译发生的目录
+
+
+使用$ENV{NAME}指令就可以调用系统的环境变量了
+
+３，CMAKE_C_FLAGS
+
+
