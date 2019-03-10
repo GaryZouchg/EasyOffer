@@ -45,6 +45,7 @@ int Solution::minDepth(BinTree* root)
 	return mindepth_;
 
 }
+
 int Solution::minDepthTravel(BinTree* root, int level)
 {
 

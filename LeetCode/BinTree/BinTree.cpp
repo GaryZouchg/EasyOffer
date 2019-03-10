@@ -58,6 +58,9 @@ int _tmain(int argc, _TCHAR* argv[])
 	std::cout << "The Max Depth:  " << sol.maxDepth(rt1_root) << std::endl;
 	std::cout << "The Min Depth:  " << sol.minDepth(rt1_root) << std::endl;
 
+
+	sol.printVec2d( sol.levelOrder(rt1_root) );
+
 	system("pause");
 
 	return 0;
