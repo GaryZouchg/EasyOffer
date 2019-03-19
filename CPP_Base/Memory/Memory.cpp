@@ -134,12 +134,16 @@ void arrayPointerdiff()
 
 
 	char *chp2 = NULL;
-	chp2 = cha;           //数组的内存赋给指针指向的地址
+	chp2 = cha;           //数组的内容赋给指针指向的地址
 	char *chp3 = &cha[0]; //数组首地址赋值给指针
 
-	std::cout << chp2 << std::endl; //Hello
-	std::cout << &chp2 << std::endl;
-	std::cout << &cha << std::endl;  //与&ch2不同
+
+	std::cout <<""<< chp2 << std::endl; //Hello
+	std::cout << "数组赋值个指针后，指针的地址值： " << &chp2 << std::endl;
+
+	std::cout << "数组的地址值： " << &cha << std::endl;  //与&ch2不同
+	std::cout << "数组的第一个元素的地址值： " << &chp3 << std::endl;  //Hello
+	std::cout << &cha[0] << std::endl;  //与&ch2不同
 	std::cout << chp3 << std::endl;  //Hello
 
 
@@ -162,6 +166,10 @@ void cycleReference()
 	std::cout << "spA.use_count() :" << spA.use_count() << std::endl;
 	spB->wpA = spA;
 	std::cout << "spB.use_count() :" << spB.use_count() << std::endl;
+
+	//std::shared_ptr<B> spB_1 = spA->wpB;  weak_ptr不能赋值给share_ptr
+
+	std::shared_ptr<B> spB_1 = spA->wpB.lock();   //
 
 }
 
