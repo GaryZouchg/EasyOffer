@@ -12,6 +12,8 @@ add_executable(mat_the_basic_image_container mat_the_basic_image_container.cc)
 add_executable(how_to_scan_images how_to_scan_images.cc)
 add_executable(mat_mask_operations mat_mask_operations.cc)
 add_executable(blending_addWeighted blending_addWeighted.cc)
+add_executable(drawing drawing.cc)
+add_executable(Drawing_1 Drawing_1.cc)
 
 find_package(OpenCV HINTS /home/test2/github/opencv/build/)
 
@@ -29,6 +31,8 @@ if(OpenCV_FOUND)
     target_link_libraries( how_to_scan_images ${OpenCV_LIBS})
     target_link_libraries( mat_mask_operations ${OpenCV_LIBS})
     target_link_libraries( blending_addWeighted ${OpenCV_LIBS})
+    target_link_libraries( drawing ${OpenCV_LIBS})
+    target_link_libraries( Drawing_1 ${OpenCV_LIBS})
 
     #LIST(APPEND LIBRARIES ${OpenCV_LIBS} opencv_highgui)
     #LIST(APPEND LIBRARIES ${OpenCV_LIBS} libopencv_imgcodecs)
