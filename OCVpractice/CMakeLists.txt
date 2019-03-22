@@ -1,6 +1,6 @@
 #cmake_minimum_required(VERSION 3.10)
 cmake_minimum_required(VERSION 3.5.1)
-project(CVpractice)
+project(OCVpractice)
 
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED TRUE)
@@ -13,7 +13,7 @@ add_executable(how_to_scan_images how_to_scan_images.cc)
 add_executable(mat_mask_operations mat_mask_operations.cc)
 add_executable(blending_addWeighted blending_addWeighted.cc)
 add_executable(drawing drawing.cc)
-add_executable(Drawing_1 Drawing_1.cc)
+add_executable(Drawing_1  Drawing_1.cc)
 
 find_package(OpenCV HINTS /home/test2/github/opencv/build/)
 
