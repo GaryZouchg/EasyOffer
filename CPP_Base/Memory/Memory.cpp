@@ -169,7 +169,7 @@ void cycleReference()
 
 	//std::shared_ptr<B> spB_1 = spA->wpB;  weak_ptr不能赋值给share_ptr
 
-	std::shared_ptr<B> spB_1 = spA->wpB.lock();   //
+	std::shared_ptr<B> spB_1 = spA->wpB.lock();   //通过weakptr获得 share_ptr;
 
 }
 
