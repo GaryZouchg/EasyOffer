@@ -23,6 +23,8 @@ int main()
             Scalar( 0, 0, 255 ),
             FILLED,      //填充
             LINE_8 );
+    //rectangle(show_img, frame.hand_bb, cv::Scalar(0xFF, 0, 0), 3);
+    //mat = mat(rect)
 
     string putstr("OpenCV forerver");
     //Size textsize = getTextSize(putstr, FONT_HERSHEY_COMPLEX, 3, 5, 0);
