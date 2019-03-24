@@ -14,8 +14,11 @@ add_executable(mat_mask_operations mat_mask_operations.cc)
 add_executable(blending_addWeighted blending_addWeighted.cc)
 add_executable(drawing drawing.cc)
 add_executable(Drawing_1  Drawing_1.cc)
+add_executable(drawing_0  drawing_0.cc)
 
-find_package(OpenCV HINTS /home/test2/github/opencv/build/)
+find_package(OpenCV HINTS /home/me/untouch-gesture/externals/opencv-3.4.3/x86_64-linux-gnu/)
+
+#find_package(OpenCV HINTS /home/test2/github/opencv/build/)
 
 
 if(OpenCV_FOUND)
@@ -33,6 +36,7 @@ if(OpenCV_FOUND)
     target_link_libraries( blending_addWeighted ${OpenCV_LIBS})
     target_link_libraries( drawing ${OpenCV_LIBS})
     target_link_libraries( Drawing_1 ${OpenCV_LIBS})
+    target_link_libraries( drawing_0 ${OpenCV_LIBS})
 
     #LIST(APPEND LIBRARIES ${OpenCV_LIBS} opencv_highgui)
     #LIST(APPEND LIBRARIES ${OpenCV_LIBS} libopencv_imgcodecs)

@@ -174,7 +174,7 @@ int main()
     }
 
     Size textsize = getTextSize("OpenCV forever!", FONT_HERSHEY_COMPLEX, 3, 5, 0);
-    Point org((width - textsize.width)/2, (height - textsize.height)/2);
+    Point org((width - textsize.width)/2, (height - textsize.height)/4);
 
     Mat image2;
     for( i = 0; i < 255; i += 2 )
