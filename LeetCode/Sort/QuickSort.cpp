@@ -32,7 +32,7 @@ void Solution::quickSort(vector<int> &vec, int l, int r, bool print)
 
 	if (l < r)
 	{
-		int i = l;      //最左端
+		int i = l ;      //最左端
 		int j = r;		//最右端
 		int x = vec[l]; // 基准值为第一个
 		while (i < j)

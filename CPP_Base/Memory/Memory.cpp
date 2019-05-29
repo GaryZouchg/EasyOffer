@@ -37,8 +37,6 @@ void arrayPointer2(void)
 	int len = strlen(a);
 
 	char *p = (char*)malloc(sizeof(char)*(len + 1));
-
-
 	// array
 	strcpy(p, a);
 	if (strcmp(p, a) == 0)

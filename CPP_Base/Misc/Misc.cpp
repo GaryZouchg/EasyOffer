@@ -1,4 +1,4 @@
-// Misc.cpp : Defines the entry point for the console application.
+.// Misc.cpp : Defines the entry point for the console application.
 //
 
 #include "stdafx.h"
@@ -9,7 +9,7 @@ int isLittleEndian()
 {
 	//小端序： 低地址低位   
 	unsigned short num = 0x1234;
-	if (*((char*)&num)==0x34)
+	if (*((char*)&num)==0x34)  //取地址，转换成char指针，在取值
 	{
 		return 1;
 	}
