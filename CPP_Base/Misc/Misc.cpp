@@ -1,6 +1,5 @@
-.// Misc.cpp : Defines the entry point for the console application.
+// Misc.cpp : Defines the entry point for the console application.
 //
-
 
 #include "Misc.h"
 #include <iostream>

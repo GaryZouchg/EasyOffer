@@ -1,3 +1,5 @@
+
+#include <string.h>
 #include <iostream>
 #include <memory>
 

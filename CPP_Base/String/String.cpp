@@ -10,8 +10,7 @@ char * myStrcpy(char *strDest, char *strSrc)
 	assert((strDest != nullptr) && (strSrc != nullptr));  // 空指针是不能使用的
 
 	char *p = strDest;
-	while ((*strDest++ = *strSrc++) != '\0')
-		NULL;
+	while ((*strDest++ = *strSrc++) != '\0'){}
 	return p;
 
 }

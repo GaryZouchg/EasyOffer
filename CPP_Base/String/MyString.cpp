@@ -1,7 +1,7 @@
 
 #include "MyString.h"
 #include <iostream>
-
+#include <string.h>
 #define _CRT_SECURE_NO_WARNINGS
 // strcpy  去掉strcpy 的不安全警告
 MyString::~MyString(void)
