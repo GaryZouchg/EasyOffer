@@ -1,4 +1,4 @@
-#include "stdafx.h"
+
 #include "Array.h"
 #include <vector>
 #include <queue>

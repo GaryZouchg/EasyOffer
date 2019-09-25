@@ -1,7 +1,7 @@
 // BinTree.cpp : Defines the entry point for the console application.
 //
 
-#include "stdafx.h"
+
 //#include "stdlid.h"
 #include "BinTree.h"
 #include <iostream>
@@ -10,7 +10,7 @@
 
 
 
-int _tmain(int argc, _TCHAR* argv[])
+int main(int argc, char* argv[])
 {
 	NODE* rt1_root = new NODE(5);
 	NODE* rt1_n21 = new NODE(4);

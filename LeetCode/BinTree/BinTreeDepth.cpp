@@ -1,4 +1,4 @@
-#include "stdafx.h"
+
 #include "BinTree.h"
 #include <algorithm>
 #include <iostream>

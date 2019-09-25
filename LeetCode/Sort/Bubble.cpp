@@ -1,5 +1,5 @@
 
-#include "stdafx.h"
+
 #include "Sort.h"
 
 /*  ц╟ещеепР
