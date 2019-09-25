@@ -1,7 +1,7 @@
 // String.cpp : Defines the entry point for the console application.
 //
 
-#include "stdafx.h"
+
 #include <assert.h>
 
 
@@ -18,7 +18,7 @@ char * myStrcpy(char *strDest, char *strSrc)
 
 
 
-int _tmain(int argc, _TCHAR* argv[])
+int main(int argc, char* argv[])
 {
 	return 0;
 }

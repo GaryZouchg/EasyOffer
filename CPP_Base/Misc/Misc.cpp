@@ -1,7 +1,7 @@
 .// Misc.cpp : Defines the entry point for the console application.
 //
 
-#include "stdafx.h"
+
 #include "Misc.h"
 #include <iostream>
 
@@ -17,7 +17,7 @@ int isLittleEndian()
 
 }
 
-int _tmain(int argc, _TCHAR* argv[])
+int main(int argc, char* argv[])
 {
 	unsigned short i_num = 0x1234;
 	if (isLittleEndian())
