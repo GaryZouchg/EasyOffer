@@ -1,6 +1,8 @@
+#include <iostream>
 #include <vector>
+#include <limits>
 
-
+using namespace std;
 typedef int DataType;
 
 typedef struct BinTree
@@ -33,9 +35,8 @@ public:
 	int maxDepth(NODE * root, int level = 1);
 	int minDepth(NODE * root);
 	int minDepthTravel(NODE * root, int level);
-	int maxdepth_ = std::numeric_limits<int>::min();  //用于存储中间变量
-	int mindepth_ = std::numeric_limits<int>::max();  //用于存储中间变量
-
+	int maxdepth_ = numeric_limits<int>::min();  //用于存储中间变量
+	int mindepth_ = numeric_limits<int>::max();  //用于存储中间变量
 
 	std::vector<std::vector<int>> levelOrder(NODE * root);
 	void printVec2d(std::vector<std::vector<int>> vec2d);

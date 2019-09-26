@@ -1,4 +1,4 @@
-
+#include <limits.h>
 #include "DynamicProgramming.h"
 #include <algorithm>
 
@@ -13,7 +13,7 @@ Given a positive integer n, find the least number of perfect square numbers (for
 
 */
 
-
+using namespace std;
 
 int Solution::static_num = 12;
 
